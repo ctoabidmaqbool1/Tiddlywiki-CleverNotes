@@ -1,0 +1,23 @@
+created: 20181221020522574
+modified: 20181222042302990
+revision: 0
+tags: [[Capturing stdout to tiddlers Unix]]
+title: Create tiddlers with random text
+
+Here we are creating a script to add tiddlers with random text each time you press a button.
+
+
+<$macrocall $name="scr"
+sn=random
+bn="Random text tiddler generater"
+bc= ' $basetitle="MyRandomTiddler" tags="some tags" somefield="somevalue"'
+sc="tr -dc A-Za-z0-9 </dev/urandom | head -c 1024"
+/>
+
+
+* To see the results convieniently, add the following to a tiddler
+
+```
+<$list filter="[prefix[MyRandomTiddler]sortan[title]]"/>
+
+```

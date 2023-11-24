@@ -1,0 +1,13 @@
+created: 20181222082358168
+modified: 20181222082758021
+revision: 0
+tags: [[Simple Scripts Unix]]
+title: Opening multiple programs
+
+<$macrocall $name=scr
+sn="openmydailyprograms"
+sc="firefox 'www.google.com'
+vlc
+nemo ~"
+bn="Open my daily programs"
+/>

@@ -1,0 +1,29 @@
+created: 20181221013042549
+modified: 20181222092314847
+revision: 0
+tags: PendingDocumentation [[Launching scripts using timimi]]
+title: Action-Launchscript Widget
+
+To install: Drag and drop $:/plugins/tesseract/action-launchscript to your wiki and refresh
+
+!!! Attributes regarding launching scripts
+
+| $script |name of the script to launch, including extension if any. eg: "myscript.sh" |
+| $param |Any parameters/flags to pass to the script |
+| $stdin | Stdin to pass to the script |
+
+!!! Attributes regarding capturing stdout
+
+| $basetitle |The initial title that will be attempted. If a tiddler with that title already exists, then a numerical counter is added to the title and incremented until it is unique|
+| $sep |Separater string for the stdout to split to title and text of new tiddler. Cannot be used together with $basetitle   |
+| $timestamp |Specifies whether the timestamp(s) of the target tiddler will be updated (''modified'' and ''modifier'', plus ''created'' and ''creator'' for newly created tiddlers). Can be "yes" (the default) or "no" |
+
+!!! Security measures and limitations
+
+See [[Security and Privacy]]
+                                                                     
+<$list filter="[tag[Action-Launchscript Examples]sort[sortorder]]">
+<h3> {{!!title}} </h3>
+
+{{!!text}}
+</$list>

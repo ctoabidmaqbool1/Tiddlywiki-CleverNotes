@@ -1,0 +1,11 @@
+created: 20181222075955295
+modified: 20181222080136909
+revision: 0
+tags: [[Capturing title and text from stdout Unix]]
+title: Simple capture and split
+
+<<scr "simplecaptureandsplit" "echo 'haaa # aai' > temp.txt && cat temp.txt " "Capture the stdout to tile and text" "$sep='#'" >>
+
+* If success, you will have a tiddler with tilte `haaa` and text `aai`
+** ''What happened here?'' The stdout is `haaa # aai`. We asked the widget to split it at #. So the part before # became the title and part after that became the text.
+** You can define any searater including space(" ") for splitting. If you set the separater as space, the first word of stdout will become title and rest will be text

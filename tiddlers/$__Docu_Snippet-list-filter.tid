@@ -1,0 +1,10 @@
+caption: List filter
+created: 20190425152629117
+modified: 20190425152739563
+tags: $:/tags/TextEditor/Snippet
+title: $:/Docu/Snippet-list-filter
+type: text/vnd.tiddlywiki
+
+<$list filter="[]" variable="li">
+
+</$list>

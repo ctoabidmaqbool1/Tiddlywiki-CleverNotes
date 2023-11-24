@@ -1,0 +1,25 @@
+created: 20181221003522709
+modified: 20200427105613038
+revision: 0
+tags: [[Backing up using timimi]]
+title: Tower of Hanoi
+
+Tower of Hanoi is another self pruning backup method. Tower of Hanoi method implemented by Timimi is slightly different from the usual strategy implemented by backup softwares. The ToH strategy can be explained in 2 steps.
+
+The first step is exactly same as [[First In First Out]] backup method. In this step, a backup file will be created every-time you save a file. However, total number of backups is limited by a number you can set. If you set the ''Number of recent saves'' as 5, timimi will create a backup file for first 5 saves. From 6th save onwards, it will start overwriting the old backup files, starting from the oldest.
+
+Now we come to second step, called deep backups. In this you can set a number n - and timimi will create a backup for every save from 2^^3^^ to 2^^n^^. 
+
+For eg: let us say you set the "Number of recent saves" as 5 and "Number of levels" as 4. Every time you save, a backup will be created with the corresponding suffix as given below.
+
+|Saves|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|
+|Recent Backups|A1|A2|A3|A4|A5|A1|A2||A4|A5|A1|A2|A3|A4|A5||A2|A3|A4|A5|A1|A2|A3||A5|A1|A2|A3|A4|A5|A1||
+|Deep Backups||||||||8||||||||||||||||8|||||||||
+|Deep Backups||||||||||||||||16||||||||||||||||16|
+
+If there is a conflict in numbers, the higher level will be preferred. For eg: let us say it is your 16th save. This can be considered as your first 2<sup>4th</sup> save. However this is also your second 2<sup>3rd</sup> save. In this case level 4 will be preferred and file will be backed up by suffixing "-16" to the original file, and not "-8". You can always find your most recent saves by looking at your browser console log.
+
+* Select "Tower of Hanoi" as your backup method 
+* Set the "Number of recent saves" and "Number of levels" settings.
+
+<span class="important">Important</span>: If you have a tiddlywiki file open in your browser, the changed settings will not be reflected until you refresh that tab.

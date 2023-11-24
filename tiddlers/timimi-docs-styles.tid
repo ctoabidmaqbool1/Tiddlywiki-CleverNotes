@@ -1,0 +1,12 @@
+created: 20200427094953525
+modified: 20200427100050441
+tags: $:/tags/Stylesheet
+title: timimi-docs-styles
+
+h1, h2, h3, h4, h5, h6 {
+   font-weight: 800;
+}
+.important {
+color: #F44336;
+font-weight: 800
+}

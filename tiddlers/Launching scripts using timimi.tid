@@ -1,0 +1,36 @@
+created: 20181220090147680
+modified: 20200423195219789
+revision: 0
+title: Launching scripts using timimi
+
+<span class="important">Important: </span> Always create a backups of your important works before trying a new plugin
+
+Timimi allows you to securely launch executables placed in a predefined location in your computer from your local tiddlywiki file. To accomplish this, two things are needed.
+
+
+
+* [[Action-launchscript widget|Action-Launchscript Widget]] 
+* Place the script/program in the location defined by timimi for your platform. They are
+** For GNU/Linux: `~/.timimi`
+** For Mac: `~/.timimi`
+** {{Scripts folder for Windows}}
+
+Now you can lauch those scripts from the tiddlywiki using action-launch scripts in the syntax
+
+```
+<$button> My Launch Button
+<$action-launchscript $script="name-of-script"/>
+</$button>
+```
+
+!!! Security measures and limitations
+
+See [[Security and Privacy]]
+
+
+<$list filter="[tag[Action-Launchscript Examples]sort[sortorder]]">
+<h3> {{!!title}} </h3>
+
+{{!!text}}
+</$list>
+

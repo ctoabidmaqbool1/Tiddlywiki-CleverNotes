@@ -1,0 +1,18 @@
+created: 20200427112414331
+modified: 20200427114355887
+tags: TableOfContents
+title: When should you not use timimi?
+
+There is no solution that will fit everybody. Therefore, here are a few reasons for not using timimi.
+
+!!! You do not have permissions you install timimi native host. 
+Somehow you are in a situation where you do not have the necessary permissions to install the native host. If you have permission to install any browser extensions, you may consider the following plugins
+
+* PMario's [ext[filebackup|https://addons.mozilla.org/en-US/firefox/addon/file-backups/]] plugin 
+* BJ's [ext[savetiddlers|https://github.com/buggyj/savetiddlers]] plugin
+
+!!! You want a portable saver
+* Try tiddlydesktop/Bob
+
+!!! You use Safari/Other browsers
+* Try tiddlydesktop/Bob

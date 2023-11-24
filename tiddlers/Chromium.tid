@@ -1,0 +1,16 @@
+created: 20200426213716880
+modified: 20200430112438740
+tags: [[Installing Timimi]] Browser
+title: Chromium
+
+!!! Chromium in Linux
+{{Chrome addon}}
+{{linux-install}}
+
+!!! Chromium in Mac
+{{Chrome addon}}
+{{mac-install}}
+
+!!! Chromium in Windows
+{{Chrome addon}}
+* Download and run ''timimi-2-1-1-Windows-Chrome-Chromium-Opera.exe'' from {{releasepage}}

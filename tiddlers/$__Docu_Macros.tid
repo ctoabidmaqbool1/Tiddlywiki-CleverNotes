@@ -1,0 +1,16 @@
+created: 20190425111835729
+modified: 20190425150356250
+tags: $:/tags/Macro
+title: $:/Docu/Macros
+type: text/vnd.tiddlywiki
+
+\define wikitext-example-without-html(src)
+<div class="doc-example">
+
+<$macrocall $name="copy-to-clipboard-above-right" src=<<__src__>>/>
+
+```
+$src$
+```
+</div>
+\end

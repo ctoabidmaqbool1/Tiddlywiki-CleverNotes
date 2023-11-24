@@ -1,0 +1,20 @@
+created: 20181220082410909
+modified: 20200427121024925
+revision: 0
+tags: TableOfContents
+title: What is timimi
+
+<p style="text-align:center">
+{{Icon.png}}
+</p>
+{{author.svg}}  {{golang.svg}} {{licence.svg}} {{tw.svg}}
+
+Timimi is a browser extension that allows user to ''save standalone tiddlywiki'' files - both TW5 and TW-Classic. In addition, Timimi also provides ability to [[backup the tiddlywiki files|Backing up using timimi]] to a path of user's choice. 
+
+Timimi is a cross-browser [ext[WebExtension|https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions]] that makes use of native messaging API. It essentially means in addition to the browser add-on you install from the web-stores, user have to install a small helper program(See [[Installing Timimi]]). It also means timimi follows secure protocols of the modern browser add-ons. It also allows the extension to shift most of the heavy lifting to system, leaving the browser light-weight and small.
+
+As of writing, timimi is the only browser add-on available for tiddlywiki that enables user to edit their tiddlywiki files anywhere in your filesystem.
+
+Timimi v2.1.1 supports the following operating systems and browsers.
+
+{{Supported OS and Browsers}}

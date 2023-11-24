@@ -1,0 +1,34 @@
+created: 20181221003910623
+modified: 20200427111948545
+revision: 0
+tags: [[Backing up using timimi]]
+title: Snapshots
+
+!!! What is snapshots?
+Snapshots is a tiddlywiki plugin independent of timimi. It helps to create a time-stamped backup of your tiddlywiki file whenever you wish. 
+
+It presents the user with a tiddlywiki message namely "''tm-backup-wiki''". Whenever this message is triggered, it creates a timestamped clone of wiki at that point. The location to keep the backups and format of timestamp (same as `now macro`) can be defined under Control Panel > Saving >Snapshots. If left blank, backups will be created in the same folder as the original file. 
+
+Remember, Snapshot plugin requires timimi plugin or other similar plugins that follow tiddlyfox saver module structure to work. Currently PMario's filebackup might work in addition to timimi.
+
+While the snapshot plugin provides a how and where to keep backups, it does not dictate when the user should create the backups. It is left open for the user to decide how to employ. You may add an action-sendmessage widget to any of these situations
+
+* Everytime the Save-wiki button is pressed - by adding action-sendmessage widget to [[$:/core/ui/Buttons/save-wiki]]
+* Everytime wiki auto-saves - by launching tm-backup-wiki event from navigator widget.
+* and any other hook depending on the workflow. 
+* Creating a special button to create backups
+```
+<$button>
+<$action-sendmessage $message="tm-backup-wiki"/>
+Backup wiki
+</$button>
+```
+ <$button>
+<$action-sendmessage $message="tm-backup-wiki"/>
+Backup wiki
+</$button>
+
+
+
+!!! How to install snapshots? 
+Simply drag and drop [[$:/plugins/tesseract/snapshot]] to your tiddlywiki.

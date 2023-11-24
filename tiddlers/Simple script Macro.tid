@@ -1,0 +1,32 @@
+created: 20181221174027940
+modified: 20181222083859354
+revision: 0
+tags: $:/tags/Macro
+title: Simple script Macro
+
+\define scr(sn:"shutdown" sc:"shutdown 0" bn:"Shudown"  bc:"")
+
+* Save your important works and ensure that [[Action-Launchscript Widget]] is installed. 
+
+
+* Add the following code to `~/.timimi/$sn$.sh`
+
+<pre><code> 
+#!/usr/bin/env bash
+$sc$
+</code></pre>
+* Make it executable by running `chmod +x ~/.timimi/$sn$.sh` in the terminal
+
+<br/>
+
+
+* In your tiddywiki, add the folllowing code to a tiddler.
+
+```
+<$button> $bn$
+<$action-launchscript $script="$sn$.sh" $bc$/>
+</$button>
+```
+* Save the tiddler.
+\end
+

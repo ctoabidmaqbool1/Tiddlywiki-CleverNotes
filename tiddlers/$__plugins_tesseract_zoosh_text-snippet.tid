@@ -1,0 +1,10 @@
+caption: Include children
+created: 20190417175324127
+modified: 20190421191538962
+tags: $:/tags/TextEditor/Snippet
+title: $:/plugins/tesseract/zoosh/text-snippet
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag<currentTiddler>!has[draft.of]]">
+{{||$:/core/ui/ViewTemplate/body}}
+</$list>

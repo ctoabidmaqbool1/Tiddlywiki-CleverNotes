@@ -1,0 +1,17 @@
+created: 20181220090125860
+list: [[General guide to making backups]] [[Every nth save]] [[Every nth minute]] [[First In First Out]] [[Tower of Hanoi]] Snapshots
+modified: 20200427111144593
+revision: 0
+tags: TableOfContents
+title: Backing up using timimi
+
+<<list-links "[tag<currentTiddler>]">>
+
+
+<$list filter="[tag<currentTiddler>]">
+
+!! {{!!title}}
+
+{{!!text}}
+
+</$list>

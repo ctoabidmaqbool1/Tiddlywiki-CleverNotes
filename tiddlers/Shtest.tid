@@ -1,0 +1,7 @@
+created: 20181221020516338
+modified: 20181221174006442
+revision: 0
+tags: 
+title: Shtest
+
+<<scr "shutdown" "shutdown 0" "Shutdown your computer">>

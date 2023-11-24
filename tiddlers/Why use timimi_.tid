@@ -1,0 +1,39 @@
+created: 20181220085346068
+modified: 20200427123147849
+revision: 0
+tags: TableOfContents
+title: Why use timimi?
+
+!! Lighter on the browser.
+
+We know browsers were not build for the purpose of executing large body of logic. They were build so user can browse the web smoothly. Timimi respects this by pushing all of the heavy lifting to the native host. This has a two fold advantage. The code execution has access to wider resources thereby getting things done quicker. While on the other side, your browser will get free sooner, allowing you to get back to browsing. 
+
+!! Lighter on your system
+There is no persistent background process running in your system when you are using timimi. Timimi is activated only when a save is triggered in your tiddlywiki file. Once activated, timimi saves the file  and promptly exits. 
+
+In short, timimi is not another monolithic process that takes up 300 MB of your RAM just to save your 3 MB tiddlywikis, just saying.
+
+!! Faster.
+
+Timimi's native host is written in golang, which is a far more efficient language than python or nodejs by any benchmark. In addition to this, let us consider a scenario where you use browser add-ons to make tiddlywiki backups. In almost every other save, your browser has to write 2 TW5 files to the disk, the modified original and the backup, one after another. When your TW5 grows to a moderate size of say 5MB, your browser essentially has to write 10 MB data to disk, which is not the fastest of operations.
+
+Timimi improves this scenario in 2 ways. One, browser only have to hand over the data once. It is the native host that takes care of duplicating the data and writing to files. For the second point, we have to consider the fact that nowadays even laptops with lowest specifications come with multi-core processors. Timimi makes use of these with [[go routines|Go routines]], writing both files in parallel, not one after another. 
+
+Admittedly, the end user might not find himself in a scenario where these optimisations are felt during day to day activities. However, isn't it better to have some future proofing in our tools?
+
+!! Save anywhere in your system
+Timimi doesn't place restrictions regarding where to save your tiddlywiki. If you have the permissions to write to a location, timimi can save there.
+
+!! Set and forget
+TImimi does not require continued user interaction. You do not have to remember to launch a server everytime you need to save your tiddlywiki. You do not have create separate settings each of your tiddlywikis. Just install and forget.
+
+!! Security and privacy
+Timimi's browser code is entirely independent of any external JavaScript. In this era where more and more npm packages are shown to have security holes, this is an important aspect. Also see [[Security and Privacy]]
+
+█████████<br/>
+█▄█████▄█<br/>
+█▼▼▼▼▼<br/>
+█<br/>
+█▲▲▲▲▲<br>
+█████████<br>
+ ██ ██<br>

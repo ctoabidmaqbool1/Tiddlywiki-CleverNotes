@@ -1,0 +1,15 @@
+caption: Tags
+created: 20171204163223085
+icon: $:/core/images/tag-button
+modified: 20190425150356295
+tags: 
+title: $:/core/ui/SideBar/Tags
+type: text/vnd.tiddlywiki
+
+<div class="tc-sidebar">
+		<$list filter="[tags[]!prefix[$]] -[[TableOfContents]]">
+
+		{{||$:/core/ui/TagTemplate}}
+
+		</$list>
+</div>

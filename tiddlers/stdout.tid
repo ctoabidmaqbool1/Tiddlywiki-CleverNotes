@@ -1,0 +1,11 @@
+created: 20181220104531547
+modified: 20181220104846486
+revision: 0
+tags: 
+title: stdout
+
+Stdout, also known as standard output, is the default file descriptor where a process/commandline-applications can write output.
+
+In Unix-like operating systems, such as Linux, macOS X, and BSD, stdout is defined by the POSIX standard. Its default file descriptor number is 1.
+
+In the terminal, standard output defaults to the user's screen.

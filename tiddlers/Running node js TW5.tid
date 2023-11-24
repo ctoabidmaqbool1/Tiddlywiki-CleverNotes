@@ -1,0 +1,7 @@
+created: 20181222083021583
+modified: 20181222084446898
+revision: 0
+tags: [[Simple Scripts Unix]]
+title: Running node js TW5
+
+<<scr "launchTW5server" "tiddlywiki /path/to/wiki --server && firefox 'http://127.0.0.1:8080/'" "Launch TW5 Server">>

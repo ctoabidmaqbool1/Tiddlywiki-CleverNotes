@@ -1,0 +1,8 @@
+created: 20200426211923076
+modified: 20200427102700604
+tags: 
+title: Chrome addon
+
+* Install timimi addon from [ext[Chrome Web Store|https://chrome.google.com/webstore/detail/timimi/mnggafnmmhdoplbffagjihajeeikgbcg]]
+* In your chrome browser, open More Tools > Extensions > Timimi > Details
+* Ensure that ''Allow access to file URLs'' is checked.

@@ -1,0 +1,17 @@
+created: 20200430112334122
+modified: 20200430114327487
+tags: [[Installing Timimi]]
+title: Chrome
+
+!! Google Chrome
+!!! Chrome in Linux
+{{Chrome addon}}
+{{linux-install}}
+
+!!! Chrome in Mac
+{{Chrome addon}}
+{{mac-install}}
+
+!!! Chrome in Windows
+{{Chrome addon}}
+* Download and run ''timimi-2-1-1-Windows-Chrome-Chromium-Opera.exe'' from {{releasepage}}

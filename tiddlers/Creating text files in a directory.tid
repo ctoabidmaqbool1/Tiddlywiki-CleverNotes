@@ -1,0 +1,13 @@
+created: 20181221020516338
+modified: 20181222041744415
+revision: 0
+sortorder: 2
+tags: [[Simple Scripts Unix]]
+title: Creating text files in a directory
+
+Here we are writing a file named "Hello.txt" to your home folder
+
+
+<<scr "Createtextfile" "touch ~/Hello.txt" "Create text file in your home folder">>
+
+* Press the button. Check your home folder for a file with the name "Hello.txt"

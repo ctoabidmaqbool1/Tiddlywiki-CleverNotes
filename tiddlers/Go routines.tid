@@ -1,0 +1,11 @@
+created: 20181220110906972
+modified: 20181220113440707
+revision: 0
+tags: 
+title: Go routines
+
+Let’s say your task is to move 100 boxes from one room to another. Let’s also say, you can carry only one box at a time and you will take 1 min to move one box. So, you will end up taking 100 mins to move 100 boxes.
+
+Now, to speed up the process of moving 100 boxes, you can either figure out a way to move one box faster (which is analogous to finding a better algorithm to solve the problem) or you can hire an additional person to help you with moving boxes (which is analogous to increasing the number of CPU cores used to execute your algorithm).
+
+Go routines is what enables you to do the second. Go routines are functions or methods that run concurrently with other functions or methods. Go routines can be thought of as light weight threads. The cost of creating a Goroutine is tiny when compared to a thread. 

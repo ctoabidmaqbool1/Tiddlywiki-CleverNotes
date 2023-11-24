@@ -1,0 +1,24 @@
+caption: Contents
+created: 20171203062210061
+icon: $:/core/images/anchor
+modified: 20190425150356326
+tags: 
+title: $:/core/ui/SideBar/Contents
+type: text/vnd.tiddlywiki
+
+\define toc-actions()
+<$action-setfield $tiddler="$:/state/sidebar" text="no"/>
+<$action-navigate $to=<<navigateTo>>>
+\end
+<div class="tc-sidebar">
+<$reveal state="$:/info/browser/screen/width" type="lteq" text="1000">
+<$linkcatcher actions=<<toc-actions>>>
+<<toc-selective-expandable 'TableOfContents'>>
+</$linkcatcher>
+</$reveal>
+
+<$reveal state="$:/info/browser/screen/width" type="gt" text="1000">
+<<toc-selective-expandable 'TableOfContents'>>
+</$reveal>
+
+</div>

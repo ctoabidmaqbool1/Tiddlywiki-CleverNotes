@@ -1,0 +1,9 @@
+caption: Wikitext example
+created: 20190425112741364
+modified: 20190425152551393
+tags: $:/tags/TextEditor/Snippet
+title: $:/Docu/Snippet-wikitext-example-without-html
+type: text/vnd.tiddlywiki
+
+<$macrocall $name='wikitext-example-without-html'
+src={{ActionCreateTiddlerWidget Example}}/>

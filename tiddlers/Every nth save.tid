@@ -1,0 +1,13 @@
+created: 20181221003507451
+modified: 20200427105433987
+revision: 0
+tags: [[Backing up using timimi]]
+title: Every nth save
+
+This method creates a timestamped backup file every //n//^^th^^ save where n is a number you set.
+
+* Select "Every nth save" as the backup method 
+* Set a number for the ''Number of saves between 2 backup''. 
+** For eg: let us say you set 5. Now every 5^^th^^ save you make, a backup of the file will be created in your backup path by appending a timestamp to the original file name. You can always find your most recent saves by looking at your browser console log.
+
+<span class="important">Important</span>: If you close/or refresh a tab, the save counter for that file will be reset to zero. ie, if you have set it to make a backup every 20th save, and you refresh the tab after your 19th save, the save counter will restart from zero. 

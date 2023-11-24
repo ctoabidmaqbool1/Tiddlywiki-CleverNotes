@@ -1,0 +1,7 @@
+created: 20190425152221765
+description: Relevant system tiddlers
+filter: [is[system]sort[title]] -[prefix[$:/temp]] -[prefix[$:/state]] -[prefix[$:/boot]] -$:/core -$:/HistoryList -$:/isEncrypted -$:/library/sjcl.js  -$:/status/IsAnonymous -$:/status/IsLoggedIn -$:/status/IsReadOnly -$:/status/UserName   -$:/plugins/tiddlywiki/filesystem -$:/plugins/tiddlywiki/highlight   -$:/SiteSubtitle -$:/SiteTitle -$:/StoryList  -$:/themes/tiddlywiki/snowwhite -$:/themes/tiddlywiki/vanilla  -$:/plugins/ahahn/tinka
+modified: 20190425152452742
+tags: $:/tags/Filter
+title: $:/themes/clevernote/filter-Relevant System
+type: text/vnd.tiddlywiki

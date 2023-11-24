@@ -1,0 +1,13 @@
+created: 20200426220641750
+modified: 20200427105412424
+tags: [[Backing up using timimi]]
+title: First In First Out
+
+In this method, a backup file will be created every-time you save a file. However, total number of backups is limited by a number you can set. If you set the ''Number of backups to keep'' as 5, timimi will create a backup file for first 5 saves. From 6^^th^^ save onwards, it will start overwriting the old backup files, starting from the oldest (First backup is the First to be Overwritten).
+
+Thus "First In First Out" is a ''self pruning'' backup method.
+
+* Select "First In First Out" as the backup method 
+* Set a number for the  ''Number of backups to keep''.
+
+<span class="important">Important</span>: If you have a tiddlywiki file open in your browser, the changed settings will not be reflected until you refresh that tab.

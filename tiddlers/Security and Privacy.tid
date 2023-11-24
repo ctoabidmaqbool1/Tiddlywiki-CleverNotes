@@ -1,0 +1,33 @@
+created: 20181220090219702
+modified: 20200426173410737
+revision: 0
+tags: TableOfContents
+title: Security and Privacy
+
+!!! Privacy
+
+* Timimi addon asks for only <a class="extlink" href="https://github.com/ibnishak/Timimi/blob/5d90110d6b675713a9788412f490066920f108a4/addon-firefox/manifest.json#L40" target="_blank">3 permissions</a>
+*# Nativemessaging - to interact with the native host
+*# Storage - to store the addon settings.
+*# Notification -to notify user of any kind of errors
+
+* Timimi <a href="https://github.com/ibnishak/Timimi/blob/5d90110d6b675713a9788412f490066920f108a4/addon-firefox/manifest.json#L34" target="_blank">loads only when you open a local file in your hard disk</a>. So Timimi remains inactive in tabs where you are browsing the web.
+* After loading, Timimi is activated <a href="https://github.com/ibnishak/Timimi/blob/5d90110d6b675713a9788412f490066920f108a4/addon-firefox/content-script.js#L49" target="_blank">only if the local file is a Tiddlywiki. </a>
+
+
+These three measures ensure that Timimi will completely respect your privacy and will have no access to any part of your browsing other than local Tiddlywiki files.
+
+!!! Security
+
+Timimi is build with worst case scenarios in mind and has redundant measures to ensure user safety. Timimi's system access flows as follows
+
+ <$railroad text=""" "Timimi browser addon" "Timimi App manifest" "Timimi native host" """/>
+
+
+This message tree follows a strict pattern. ie, Timimi browser addon will send messages.ONLY to Timimi app manifest. Timimi app manifest can ONLY listen to Timimi browser addon identified by its unique key. Finally, Timimi app manifest will send messages ONLY to Timimi native host. 
+
+Now consider the scenario where somebody is trying to hijack your browser. 
+
+* Malicious actor cannot install another plugin pretending to be Timimi. Browser will automatically reject a second addon with same unique key.
+* Malicious actor cannot install an app manifest in your system from the browser. App manifests can only be installed like a normal software, away from the browser.
+* Malicious actor cannot make use of Timimi app manifest, as it will only listen to Timimi browser addon. 

@@ -1,0 +1,8 @@
+created: 20181221025923784
+modified: 20181221120207905
+revision: 0
+tags: 
+title: Scripts folder for Windows
+
+ <li>For Windows: `C:\Users\<your username>\Appdata\Roaming\Timimi\Scripts`. 
+<ul><li>You can easily navigate to the folder from Start Menu > Programs > Timimi > Scripts</li></ul></li>

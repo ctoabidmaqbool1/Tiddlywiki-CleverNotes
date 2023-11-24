@@ -1,0 +1,17 @@
+created: 20200430112214276
+modified: 20200430112248552
+tags: [[Installing Timimi]] Browser
+title: Firefox
+
+!!! Firefox in Linux
+* Install Timimi addon from {{firefox-addonpage}}
+{{linux-install}}
+
+!!! Firefox in Mac
+* Install Timimi addon from {{firefox-addonpage}}
+{{mac-install}}
+
+!!! Firefox in Windows
+
+* Install Timimi addon from {{firefox-addonpage}}
+* Download and run ''timimi-2-1-1-Windows-Firefox.exe'' from {{releasepage}}

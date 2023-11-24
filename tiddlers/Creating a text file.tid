@@ -1,0 +1,9 @@
+created: 20181221174731511
+modified: 20181221174905132
+revision: 0
+tags: 
+title: Creating a text file
+
+<<scr touch "touch ~/CreatingFilesWithTimimi.txt">>
+
+* If success, there will be new file in your home folder named `CreatingFilesWithTimimi.txt`

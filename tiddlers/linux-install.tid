@@ -1,0 +1,8 @@
+created: 20200426212303072
+modified: 20200430114129644
+tags: 
+title: linux-install
+
+* Download ''timimi-2-1-1-Linux'' from {{releasepage}}
+* Run it by double clicking [If your OS asks for confirmation, choose "Run"]. 
+* Select the appropriate browser when asked.

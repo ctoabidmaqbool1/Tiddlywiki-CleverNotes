@@ -1,0 +1,8 @@
+created: 20200426214556130
+modified: 20200430112552474
+tags: [[Installing Timimi]] Browser
+title: Opera
+
+!!! Opera in Linux, Mac and Windows
+* Install the [ext[chrome extensions add-on|https://addons.opera.com/en/extensions/details/install-chrome-extensions/]] which enables opera to install chrome add-ons.
+* Now follow the instructions for [[Chrome]] in your specific OS

@@ -1,0 +1,10 @@
+created: 20200426213923800
+modified: 20200430120324075
+tags: 
+title: mac-install
+
+* Download ''timimi-2-1-1-Mac'' from {{releasepage}}
+* Run it by double clicking [If your OS asks for confirmation, choose "Run"]. 
+* Select the appropriate browser when asked.
+
+<span class="important">Important</span>: Mac OS Catalina users: Please see [[Resolution of "developer cannot be verified" issue in Mac OS Catalina]]

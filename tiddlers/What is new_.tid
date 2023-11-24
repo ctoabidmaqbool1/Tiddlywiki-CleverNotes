@@ -1,0 +1,16 @@
+created: 20181220085240957
+modified: 20200426152626920
+revision: 0
+tags: TableOfContents
+title: What is new?
+
+!!! Version 2.1.1
+* Timimi now supports chrome, chromium, and opera across Mac, Linux and Windows.
+* Added "First In First Out" backup strategy.
+* Resolve the bug in Mac that caused first backup to fail if the backup directory didn't exist.
+
+!!! Version 2.0.1
+* Resolving bug that caused problems with saving in Mac/OSX.
+* [[3 backup strategies|Backing up using timimi]] to choose from.
+* Support for absolute as well as relative backup paths
+* Ability to [[launch scripts and capture stdout in tiddlers|Launching scripts using timimi]]

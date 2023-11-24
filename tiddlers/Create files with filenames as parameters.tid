@@ -1,0 +1,18 @@
+created: 20181222050821533
+modified: 20181222050932257
+revision: 0
+sortorder: 2
+tags: [[Simple Scripts with parameters Unix]]
+title: Create files with filenames as parameters
+
+Here we are modifying [[Creating text files in a directory]] to pass filenames as parameters to script
+
+<$macrocall $name="scr"
+sn=createfileswithparams
+sc='touch ~/$1 ~/$2'
+bn="Create files with names as given in widget params"
+bc= '$param="hey.txt haai.txt"'
+/>
+
+
+* Check your home folder for files named in widget params

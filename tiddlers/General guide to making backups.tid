@@ -1,0 +1,16 @@
+created: 20181221003500159
+modified: 20200427105422258
+revision: 0
+tags: [[Backing up using timimi]]
+title: General guide to making backups
+
+* Open the Timimi options page of your browser. 
+** In Firefox, this will be `Menu > Addons > Timimi > Preferences`
+** In Chrome, this will be `Menu > More Tools > Extensions > Timimi > Details > Extension options`
+* Add a backup path
+** If left blank, the backups will be created in the same folder as the original file
+** You can set an absolute path or a relative path. If it is an absolute path, backups of all files will be created in that folder. If it is a relative path, backups of each file will be saved in a folder relative to the original file.
+* Choose a backup method and change corresponding settings to your preference.
+* Click the submit button.
+<span class="important">Important</span>: If you have a tiddlywiki file open in your browser, the changed settings will not be reflected until you refresh that tab.
+

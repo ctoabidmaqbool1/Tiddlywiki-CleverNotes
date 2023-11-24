@@ -1,0 +1,29 @@
+created: 20181221020530778
+modified: 20181221030236299
+revision: 0
+tags: [[Simple scripts Windows]] Pending
+title: Opening webpages using a bat script
+
+Here we are creating a script to open a list of webpages. Save your important works and ensure that Action-Launchscript Widget is installed. 
+
+* Open  notepad, add the following text to it
+
+```
+@echo off
+
+start "" http://www.cnn.com
+start "" http://www.abc.com
+start "" http://www.msnbc.com
+start "" http://www.bbc.com
+start "" http://www.huffingtonpost.com
+```
+
+* Save the file as `news.bat` and move it to your [[scripts folder|Scripts folder for Windows]]
+
+* Add the following code to your Tiddlywiki
+```
+<$button> Launch news
+<$action-launchscript $script="news.bat"/>
+</$button>
+```
+* Save the tiddler and press the button

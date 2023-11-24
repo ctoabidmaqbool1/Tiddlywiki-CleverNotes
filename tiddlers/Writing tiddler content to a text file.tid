@@ -1,0 +1,31 @@
+created: 20181222073055204
+modified: 20181222073138226
+revision: 0
+tags: [[Capturing stdin to files Unix]]
+title: Writing tiddler content to a text file
+
+* Save your important works and ensure that [[Action-Launchscript Widget]] is installed. 
+
+
+* Add the following code to `~/.timimi/capturestdin.sh`
+```
+#!/usr/bin/env bash
+cat > ~/SampleFile.txt
+```
+* Make it executable by running `chmod +x ~/.timimi/capturestdin.sh` in the terminal
+
+* In your tiddywiki, add the folllowing code to a tiddler.
+
+```
+<$wikify name=somename text={{Sample file}}>
+
+
+<$button> Write tiddler content to a file
+<$action-launchscript $script="capturestdin.sh" $stdin=<<somename>>/>
+</$button>
+
+</$wikify>
+```
+* Save the tiddler and press the button
+* See if `~/SampleFile.txt` has the text content of [[Sample file]]
+

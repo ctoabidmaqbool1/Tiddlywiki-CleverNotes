@@ -1,0 +1,15 @@
+caption: {{$:/language/SideBar/Contents/Caption}}
+created: 20140809114010378
+list: [[What is timimi]] [[What is new?]] [[Why use timimi?]] [[When should you not use timimi?]] [[Installing Timimi]] [[Backing up using timimi]] [[Launching scripts using timimi]] [[Security and Privacy]] Roadmap [[Acknowledments and Credits]]
+list-after: $:/core/ui/SideBar/Open
+modified: 20200427150855733
+revision: 0
+title: TableOfContents
+type: text/vnd.tiddlywiki
+
+<div class="tc-table-of-contents">
+
+<<toc 'TableOfContents'>>
+
+</div>
+

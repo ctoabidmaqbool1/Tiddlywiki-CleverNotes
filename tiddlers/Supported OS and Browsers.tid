@@ -1,0 +1,23 @@
+created: 20181220091848744
+modified: 20200430123127950
+revision: 0
+tags: [[What is timimi]]
+title: Supported OS and Browsers
+
+!!! Supported OS
+
+* Debian based systems - Debian, Ubuntu, Elementary, Mint etc
+* Arch based systems - Arch Linux, Antergos, Manjaro etc
+* OSX
+* Windows 7 and later.
+
+!!! Supported Browsers
+
+|          | GNU+Linux       | Mac             | Windows         |
+| Firefox  | @@color:#009688;DONE@@            | @@color:#009688;DONE@@ | @@color:#009688;DONE@@  |
+| Chrome   | @@color:#009688;DONE@@  | @@color:#009688;DONE@@           | @@color:#009688;DONE@@             |
+| Chromium | @@color:#009688;DONE@@  |  @@color:#009688;DONE@@          |    @@color:#009688;DONE@@               |
+| Opera    | @@color:#009688;DONE@@         |  @@color:#009688;DONE@@          |  @@color:#009688;DONE@@          |
+| Edge     |          |          | @@color:#009688;DONE@@         |
+| Brave |   TESTING | TESTING    |  @@color:#009688;DONE@@ |
+| Vivaldi | TESTING | TESTING |  @@color:#009688;DONE@@  |

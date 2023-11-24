@@ -1,0 +1,13 @@
+created: 20181221003512702
+modified: 20200427105546781
+revision: 0
+tags: [[Backing up using timimi]]
+title: Every nth minute
+
+* Select "Every nth min" as the backup method
+* Set a number for the "Number of minutes after last save". 
+** For eg: let us say you set 5. Now every time your saves are separated by approximately 5 minutes (anything above 4 minute 30 seconds will be considered as 5 minutes), a backup of the file will be created in your backup path by appending a timestamp to the original file name. You can always find your most recent saves by looking at your browser console log.
+
+<span class="important">Important</span>: A backup will <span class="warning">not</span> be automatically triggered when the time interval has lapsed. It will be oly triggered when you make a save after the time interval has lapsed.
+
+<span class="important">Important</span>:  If you close/or refresh a tab, the time interval will be reset to zero.  ie, if you have set it to make a backup after 20 minutes, and you refresh the tab after  19th minute, the timer will restart from zero.

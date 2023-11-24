@@ -1,0 +1,7 @@
+created: 20181221181654110
+modified: 20181221181935228
+revision: 0
+tags: [[Linux Script Example]]
+title: Stdin
+
+<<scr "stdin" "cat > ~/Hellothere.txt" '$stdin="haaaaaaaaaaaaaaai"'>>
